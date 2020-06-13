@@ -50,7 +50,7 @@ function updateCart() {
     let result = '';
     shoppingList.forEach(product => {
         result += `<div class="product-list__item">`;
-        result += `<div class="product-image"><img class="product-image__img" src="${product.image}" alt=""></div>`;
+        result += `<div class="product-image"><img class="product-image__img" src="47-homework/${product.image}" alt=""></div>`;
         result += `<div class="product-info">`;
         result += `<div class="product-info__price">&#36;${product.price}</div>`;
         result += `<div class="product-info__title">${product.description}</div>`;
